@@ -1,5 +1,5 @@
 
-# Intelligent Complaint Analysis – Task 1 & Task 2
+# Intelligent Complaint Analysis –
 
 This repository contains the implementation of the first phase of the Intelligent Complaint Analysis project for CrediTrust Financial. The goal of this phase is to **clean, preprocess, and transform raw complaint narratives into structured, searchable data** for semantic retrieval.
 
@@ -81,6 +81,91 @@ vsm.build_vector_store(batch_size=128)
 * Error handling is included for file I/O, model loading, and ChromaDB operations.
 * The notebook `Task1_Task2_analysis.ipynb` orchestrates the pipeline and includes visualizations for EDA and narrative length analysis.
 
+Sure! Here’s a **ready-to-paste `README.md`** tailored for your **task3 and task4 branches**, with clear sections for GitHub. You can just copy it into a `README.md` file in your repo.
+
 ---
+
+```markdown
+
+## Branch: `task3`
+
+### Description
+This branch includes:
+- All source files in the `src/` folder
+- Notebook `task3_rag.ipynb` containing the RAG implementation and experiments
+
+### File Structure
+```
+
+task3/
+├── src/
+│   ├── ... (all source files for task3)
+├── notebook/
+│   └── task3_rag.ipynb
+
+````
+
+### How to Use
+1. Switch to the branch:
+   ```bash
+   git checkout task3
+````
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd src
+   ```
+3. Run your scripts or open the notebook:
+
+   ```bash
+   jupyter notebook ../notebook/task3_rag.ipynb
+   ```
+
+---
+
+## Branch: `task4`
+
+### Description
+
+This branch includes the main application file for Task 4.
+
+### File Structure
+
+```
+task4/
+└── app.py
+```
+
+### How to Use
+
+1. Switch to the branch:
+
+   ```bash
+   git checkout task4
+   ```
+2. Run the application:
+
+   ```bash
+   python app.py
+   ```
+
+---
+
+## Notes
+
+* Each branch is independent to keep tasks modular.
+* Make sure you are on the correct branch before running any code.
+* Task3 focuses on notebook experiments, while Task4 contains the main application logic.
+
+````
+
+---
+
+
+````
+
+
+
 
 
